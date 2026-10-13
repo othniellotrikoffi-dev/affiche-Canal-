@@ -1,0 +1,231 @@
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Offre CANAL+ | Découvrez nos offres</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #080b12;
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 20px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #292929;
+    }
+
+    .logo {
+      font-size: 30px;
+      font-weight: bold;
+      font-style: italic;
+    }
+
+    .logo span {
+      color: #ffdc00;
+    }
+
+    .hero {
+      padding: 65px 8%;
+      text-align: center;
+      background: linear-gradient(135deg, #080b12, #18275c);
+    }
+
+    .hero h1 {
+      font-size: clamp(35px, 6vw, 60px);
+      line-height: 1.15;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 span {
+      color: #ffdc00;
+    }
+
+    .hero p {
+      max-width: 650px;
+      margin: 0 auto 25px;
+      font-size: 18px;
+      color: #e4e4e4;
+    }
+
+    .poster {
+      display: block;
+      width: 100%;
+      max-width: 650px;
+      margin: 30px auto;
+      border-radius: 12px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 28px;
+      background: #08b84f;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .button:hover {
+      background: #07933f;
+    }
+
+    .features {
+      background: white;
+      color: #111;
+      padding: 45px 8%;
+      text-align: center;
+    }
+
+    .features h2,
+    .contact h2 {
+      margin-bottom: 25px;
+      font-size: 28px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      padding: 20px;
+      border: 1px solid #e5e5e5;
+      border-radius: 12px;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #111;
+    }
+
+    .contact {
+      padding: 45px 8%;
+      text-align: center;
+    }
+
+    .contact p {
+      margin-bottom: 15px;
+    }
+
+    footer {
+      padding: 25px;
+      text-align: center;
+      background: #030509;
+      color: #aaa;
+      font-size: 13px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding: 15px 5%;
+      }
+
+      .logo {
+        font-size: 25px;
+      }
+
+      .hero {
+        padding: 45px 5%;
+      }
+
+      .features, .contact {
+        padding: 35px 5%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">CANAL<span>+</span></div>
+    <div>Accueil | Offres | Contact</div>
+  </header>
+
+  <section class="hero">
+    <h1>VOS PROGRAMMES PRÉFÉRÉS<br>
+      <span>PARTOUT, TOUT LE TEMPS !</span>
+    </h1>
+
+    <p>
+      Découvrez les offres CANAL+ et profitez de vos
+      programmes préférés sur smartphone et Smart TV,
+      sans décodeur, selon les conditions de l'abonnement.
+    </p>
+
+    <!-- Place ton affiche dans le dépôt sous ce nom -->
+    <img
+      class="poster"
+      src="affiche-canalplus.png"
+      alt="Affiche de présentation de l'offre"
+    >
+
+    <a class="button"
+       href="#contact">
+       Découvrir les offres
+    </a>
+  </section>
+
+  <section class="features">
+    <h2>Pourquoi choisir cette offre ?</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>📱 Smartphone</h3>
+        <p>Profitez de vos programmes sur un appareil compatible.</p>
+      </div>
+
+      <div class="card">
+        <h3>📺 Smart TV</h3>
+        <p>Retrouvez vos contenus sur votre téléviseur compatible.</p>
+      </div>
+
+      <div class="card">
+        <h3>🎬 Divertissement</h3>
+        <p>Cinéma, séries, sport et bien plus selon votre abonnement.</p>
+      </div>
+
+      <div class="card">
+        <h3>🌐 Sans décodeur</h3>
+        <p>Accédez aux contenus compatibles grâce à Internet.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Intéressé(e) ?</h2>
+    <p>Contactez-nous pour connaître les offres et les tarifs disponibles.</p>
+
+    <!-- Remplace le numéro par ton numéro WhatsApp -->
+    <a class="button"
+       href="https://wa.me/228XXXXXXXX"
+       target="_blank"
+       rel="noopener">
+       Écrire sur WhatsApp
+    </a>
+  </section>
+
+  <footer>
+    <p>Page de présentation indépendante.</p>
+    <p>Offres soumises aux conditions officielles de CANAL+.</p>
+    <p>La disponibilité dépend du pays, de l'abonnement et des appareils compatibles.</p>
+  </footer>
+
+</body>
+</html>
+
